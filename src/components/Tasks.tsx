@@ -1,4 +1,4 @@
-import { ChevronRight, TrashIcon } from 'lucide-react';
+import { CheckIcon, ChevronRight, TrashIcon } from 'lucide-react';
 import '../assets/css/tasks.css';
 import type { TaskProps } from '../assets/types';
 
@@ -23,6 +23,7 @@ function Task({
                 className={`task ${task.isCompleted ? "completed" : ""}`}
                 onClick={() => completeTask(task.id)}
               >
+                {task.isCompleted && <CheckIcon />}
                 {task.title}
               </button>
               <button
