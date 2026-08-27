@@ -1,0 +1,34 @@
+.addTaskContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  border: solid 1px rgba(128, 128, 128, 0.636);
+  border-radius: 8px;
+  padding: 5px 10px;
+  height: 130px;
+  width: 400px;
+  margin: 15px 0;
+}
+
+.inputField {
+  border: solid 1px gainsboro;
+  border-radius: 4px;
+  padding: 5px;
+  height: 25px;
+  margin: 5px 0;
+  height: 30px;
+}
+
+.inputFlied:focus {
+  border: solid 1px rgb(151, 181, 245);
+  outline: none;
+}
+
+.addTaskBtn {
+  color: white;
+  height: 30px;
+  margin: 5px 0;
+  border: solid 1px gainsboro;
+  border-radius: 4px;
+  background-color: slategrey;
+}
